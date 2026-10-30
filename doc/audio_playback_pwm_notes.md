@@ -1,4 +1,5 @@
-# Introduction #
+# Audio Playback PWM
+
 This example project demonstrates Audio Playback with PWM module's functionality. It uses ADPCM module to decode the PCM data. The Decoded PCM data is in signed 16-bit format. The application converts this signed PCM data into unsigned PCM data and provides the converted unsigned data to the audio playback with PWM module. The converted unsigned data is provided as input and output is generated as PWM signal. Error and info messages will be printed on the terminal.
 
 Please refer to the [Example Project Usage Guide](https://github.com/renesas/ra-fsp-examples/blob/master/example_projects/Example%20Project%20Usage%20Guide.pdf) for general information on example projects and [readme.txt](./readme.txt) for specifics of operation.
